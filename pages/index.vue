@@ -1,13 +1,11 @@
 <template>
-  <div>
-    df
-  </div>
+	<div>
+		<h1>Baby</h1>
+	</div>
 </template>
 
-<script lang="ts" setup>
-
+<script setup>
 </script>
+<style scoped>
 
-<style>
-
-</style>
+</style>	

@@ -3,3 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+@font-face {
+	font-family: 'MyFont';
+	src: url('~/assets/Fonts/oktaneue-ultralight.otf');
+	font-weight: normal;
+}
