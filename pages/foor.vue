@@ -50,14 +50,12 @@ const places = [
 </script>
 
 <style scoped>
-
 .container {
   font-family: 'MyFont';
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
-
 
 .title {
   font-size: 24px;
@@ -70,14 +68,14 @@ const places = [
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
+  justify-content: center;
 }
 
 .place-card {
-  background: white;
   border-radius: 12px;
   overflow: hidden;
-  max-width: 100%;
   width: 100%;
+  max-width: 400px;
 }
 
 .place-image {
@@ -95,7 +93,7 @@ const places = [
 }
 
 .place-title {
-  margin-top:14px;
+  margin-top: 12px;
   font-size: 18px;
   font-weight: bold;
 }
@@ -114,13 +112,12 @@ const places = [
   text-align: center;
   transition: background 0.3s;
   width: 142px;
-  margin-top:12px;
+  margin-top: 10px;
 }
 
 .map-button:hover {
   background: #55555A;
 }
-
 
 @media (min-width: 500px) {
   .places-grid {

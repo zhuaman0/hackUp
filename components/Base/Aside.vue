@@ -33,9 +33,19 @@
 				</div>
 				<div class="footer-row">
 					<div>
-						<div>
-					      <img src="/public/icons/search-icon.svg" alt="">
-					      <input placeholder="Іздеу" type="search">
+						<div class="items-links">
+					      <div class="bg-gray-300 rounded-[50%] w-8 h-8"></div>
+					      <span>Алишер Жүнісов</span>
+						</div>
+						<div class="mt-4">
+							<div class="flex items-center">
+								<img src="/public/icons/baps.svg" alt="">
+								<span class="pl-2">Баптаулар</span>
+							</div>
+							<div class="flex items-center mt-2">
+								<img src="/public/icons/baps.svg" alt="">
+								<span class="pl-2">Баптаулар</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -43,7 +53,6 @@
 		</div>		
 	</div>
 </template>
-
 <script setup>
 
 </script>
@@ -64,16 +73,20 @@
 .con {
 	max-width: 220px;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 .logo {
 	font-family: 'MyFont', sans-serif;
 	font-weight: bold;
 	width: 30px;
 	height: 20px;
+	margin-bottom: 15px;
 }
 .search-container {
 	position: relative;
-	margin: 20px 0;
+	margin: 5px 0;
 }
 .search-container img {
 	position: absolute;
@@ -107,5 +120,8 @@
 }
 .items-container {
 	margin-top: 50px;
+}
+.footer-row {
+	margin-top: auto;
 }
 </style>
