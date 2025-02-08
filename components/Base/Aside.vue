@@ -4,7 +4,9 @@
 			<div class="con">
 				<div class="header-row">
 					<div class="logo">
-					Logo
+						<img src="./" alt="">
+					</div>
+					</style" alt="">
 				</div>
 				<div class="search-container">
 					<img src="/public/icons/search-icon.svg" alt="">
@@ -66,6 +68,8 @@
 .logo {
 	font-family: 'MyFont', sans-serif;
 	font-weight: bold;
+	width: 30px;
+	height: 20px;
 }
 .search-container {
 	position: relative;
