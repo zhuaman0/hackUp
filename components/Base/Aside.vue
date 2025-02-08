@@ -4,7 +4,7 @@
 			<div class="con">
 				<div class="header-row">
 					<div class="logo">
-						<img src="./" alt="">
+						<img src=".<template>
 					</div>
 					</style" alt="">
 				</div>
