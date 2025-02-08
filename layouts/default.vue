@@ -13,10 +13,6 @@
 
 <style scoped>
 .container {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-}
-main {
-	grid-column: span 6;
+	display: flex;
 }
 </style>
