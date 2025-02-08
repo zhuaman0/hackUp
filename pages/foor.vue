@@ -1,4 +1,4 @@
-о
+
   
   <script lang="ts" setup>
   const places = [

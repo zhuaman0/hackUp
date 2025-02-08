@@ -7,5 +7,8 @@ export default defineNuxtConfig({
    '/assets/css/style.css'
  ],
 
- modules: ['@nuxtjs/tailwindcss']
+ modules: ['@nuxtjs/tailwindcss'],
+ runtimeConfig: {
+	openaiKey: ''
+ }
 })
