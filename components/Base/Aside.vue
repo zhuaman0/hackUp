@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="z-50">
 		<div class="aside-container">
 			<div class="con">
 				<div class="header-row">
@@ -59,6 +59,7 @@
 	display: flex;
 	justify-content: center;
 	padding: 30px 0;
+	background: #fff;
 }
 .con {
 	max-width: 220px;
