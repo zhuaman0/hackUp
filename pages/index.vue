@@ -205,7 +205,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin-left:50px;
   align-items: center;
   justify-content: center;
 }
