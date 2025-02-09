@@ -7,35 +7,34 @@
 						<img src="/public/img/logo/taraz-log.png" alt="Taraz Logo">
 					</div>
 				</div>
+				<div class="items-links">
+							<div class="bg-gray-300 rounded-[50%] w-8 h-8"></div>
+							<span>Алишер Жүнісов</span>
+					</div>
 				<div class="items-container">
 					<div class="items-links links">
-						<img src="/icons/home-icon.png" alt="">
+						<img class="w-12" src="/icons/aside/Kiiz ui.svg" alt="">
 						<span>Басты бет</span>
 					</div>
 					<div class="items-links link">
-						<img src="/icons/map.png" alt="">
+						<img class="w-12" src="/icons/aside/Map.svg" alt="">
 						<span>Карта</span>
 					</div>
-					</nuxt-link>
 					<div class="items-links link">
-						<img src="/icons/challeng.png" alt="">
+						<img class="w-10" src="/icons/aside/Asyq (1).svg" alt="">
 						<span>Челлендж</span>
 					</div>
 				</div>
 				<div class="footer-row">
 					<div>
-						<div class="items-links">
-							<div class="bg-gray-300 rounded-[50%] w-8 h-8"></div>
-							<span>Алишер Жүнісов</span>
-						</div>
 						<div class="mt-4">
 							<div class="flex items-center">
-								<img src="/icons/baps.svg" alt="">
+								<img class="w-12" src="/icons/aside/Kaster.svg" alt="">
 								<span class="pl-2">Баптаулар</span>
 							</div>
 							<div class="flex items-center mt-2">
-								<img src="/icons/baps.svg" alt="">
-								<span class="pl-2">Баптаулар</span>
+								<img class="w-10" src="/icons/aside/exit.png" alt="">
+								<span class="pl-[15px] text-red-500">Шығу</span>
 							</div>
 						</div>
 					</div>
@@ -84,16 +83,13 @@
 	align-items: center;
 	font-family: 'MyFont';
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 .items-links span {
-	padding-left: 5px;
-}
-.items-links img {
-	width: 25px;
+	padding-left: 20px;
 }
 .links img {
-	width: 30px;
+	width: 45px;
 }
 .footer-row {
 	margin-top: auto;
