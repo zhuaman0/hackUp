@@ -4,21 +4,27 @@
 			<div class="con">
 				<div class="header-row">
 					<div class="logo">
-					Logo
+						<img src=".<template>
+					</div>
+					</style" alt="">
 				</div>
 				<div class="search-container">
 					<img src="/public/icons/search-icon.svg" alt="">
 					<input placeholder="Іздеу" type="search">
 				</div>
 				<div class="items-container">
-					<div class="items-links links">
+					<NuxtLink to="/">
+						<div class="items-links links">
 						<img src="/public/icons/home-icon.svg" alt="">
 						<span>Басты бет</span>
 					</div>
-					<div class="items-links link">
+					</NuxtLink>
+					<nuxt-link to="/foor">
+						<div class="items-links link">
 						<img src="/public/icons/tour-icon.svg" alt="">
 						<span>Турлар</span>
 					</div>
+					</nuxt-link>
 					<div class="items-links link">
 						<img src="/public/icons/games-icon.svg" alt="">
 						<span>Ойындар</span>
@@ -78,6 +84,8 @@
 .logo {
 	font-family: 'MyFont', sans-serif;
 	font-weight: bold;
+	width: 30px;
+	height: 20px;
 	margin-bottom: 15px;
 }
 .search-container {
