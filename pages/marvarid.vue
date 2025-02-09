@@ -78,6 +78,22 @@
     </div>
   </div>
       
+  <div class="gallery">
+    <div
+      v-for="(image, index) in images"
+      :key="index"
+      class="gallery-item"
+    >
+      <img
+        :src="image"
+        alt="Gallery Image"
+        class="gallery-image"
+        @mouseover="hoverIndex = index"
+        @mouseleave="hoverIndex = null"
+        :class="{ 'zoomed': hoverIndex === index }"
+      />
+    </div>
+  </div>
     </div>
   </template>
 
@@ -112,6 +128,7 @@ export default {
       toggleAnswer,
     };
   },
+  
 };
 </script>
   
@@ -277,7 +294,7 @@ export default {
 .faq-item {
   margin-bottom: 1rem;
   border-radius: 15px;
-  background-color: #f2f5ee;
+  background-color: #E3EADF;
 }
 
 .faq-question {
@@ -298,10 +315,10 @@ export default {
 }
 
 .faq-answer {
-  padding: 1rem;
-  background-color: #ffffff;
-  border-top: 1px solid #e0e0e0;
+  padding: 10px 500px 80px 25px ;
+  background-color: #E3EADF;
   font-size: 0.95rem;
+  border-radius: 10px;
 }
 
 .icon {
